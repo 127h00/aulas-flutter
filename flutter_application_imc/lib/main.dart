@@ -29,6 +29,7 @@ class HomeState extends State<MainApp> {
                   onPressed: clearFields(),
                   icon: const Icon(Icons.ac_unit_sharp)),
             ]),
+            
         body: SingleChildScrollView(
             padding: const EdgeInsets.all(20),
             child: Column(

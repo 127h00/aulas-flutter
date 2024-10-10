@@ -34,7 +34,8 @@ class Doguinhos extends StatelessWidget {
                     Navigator.pushNamed(context, 'dogMaltes');
                   },
                   child: const Text("Maltês",
-                      style: TextStyle(color: Colors.white))),
+                      style: TextStyle(color: Colors.white))
+              ),
             ],
           )
         ]));
